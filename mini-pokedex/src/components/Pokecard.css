@@ -1,3 +1,23 @@
 .Pokecard {
-  border: 2px black solid;
+  border: hsl(195, 53%, 79%) 1px solid;
+  border-radius: 10px;
+  margin: .5em;
+  padding: .5em;
+  width: 200px;
+  background: hsl(0, 22%, 95%);
+  box-shadow: 0 8px 8px -4px hsl(195, 53%, 79%);
 }
+
+.Pokecard-title {
+  margin: .2em 0 .2em 0;
+  color: rgb(7, 95, 114);
+}
+
+.Pokecard-list {
+  padding: 0;
+}
+
+.Pokecard-list li {
+  list-style: none;
+}
+
