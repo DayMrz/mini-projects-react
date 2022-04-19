@@ -3,3 +3,12 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
+.Pokedex-title-box {
+  margin: 1em 0 1em 0;
+}
+
+.Pokedex-main-title {
+  width: 250px;
+  height: 100px;
+} 
