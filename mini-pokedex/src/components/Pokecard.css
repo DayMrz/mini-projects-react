@@ -9,6 +9,7 @@
 }
 
 .Pokecard-title {
+  
   margin: .2em 0 .2em 0;
   color: rgb(7, 95, 114);
 }
@@ -19,5 +20,9 @@
 
 .Pokecard-list li {
   list-style: none;
+}
+
+.Pokecard-img {
+  height: 200px;
 }
 

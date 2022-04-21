@@ -2,8 +2,6 @@ import React, {Component} from 'react'
 import Pokecard from './Pokecard'
 import '../components/Pokedex.css'
 
-const mainTitle = 'https://th.bing.com/th/id/R.5409c5a012ff2dbe5a895c4f067dacdf?rik=eFLgLYCyZCvR2Q&riu=http%3a%2f%2fimg1.wikia.nocookie.net%2f__cb20130927133418%2fpokemon%2ffr%2fimages%2f1%2f1b%2fPokedex_logo.png&ehk=mhq2CI0CjFhlxc0%2bV9kx%2fQdUmcg9WcNgs6M5WTFmCUo%3d&risl=&pid=ImgRaw&r=0'
-
 class Pokedex extends Component {
   static defaultProps = {
     pokemon : [
@@ -20,8 +18,9 @@ class Pokedex extends Component {
   render() {
     return (
       <div className='Pokedex'>
-        <div className='Pokedex-title-box'>
-          <img className='Pokedex-main-title' src={mainTitle} alt='Pokedex'/>
+        <div className='Pokedex-total-box'>
+          <h2>Pokedex</h2>
+          <p>Total Exp: {this.props.exp}</p>
         </div>
         <div className='Pokedex-cards'>
           {this.props.pokemon.map((p) => (
