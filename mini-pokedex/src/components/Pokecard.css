@@ -3,7 +3,7 @@
   border-radius: 10px;
   margin: .4em;
   padding: .4em;
-  width: 190px;
+  width: 200px;
   background: hsl(0, 22%, 95%);
   box-shadow: 0 8px 8px -4px hsl(195, 53%, 79%);
 }
@@ -14,13 +14,21 @@
   color: rgb(7, 95, 114);
 }
 
+.Pokecard img {
+  transition: all ease 500ms;
+}
+
+.Pokecard img:hover {
+  transform: scale(1.25);
+}
+
 .Pokecard-circle-img {
   background-color: rgba(1, 255, 255, 0.136);
   border-radius: 50%;
 }
 
 .Pokecard-img {
-  height: 200px;
+  height: 190px;
 }
 
 .flying {
@@ -50,6 +58,4 @@
 .water {
   background-color: hsla(213, 93%, 48%, 0.27);
 }
-
-
 
