@@ -24,31 +24,31 @@
 }
 
 .flying {
-  background-color: hsla(240, 63%, 65%, 0.425);
+  background-color: hsla(240, 73%, 81%, 0.27);
 }
 
 .poison {
-  background-color: hsla(300, 46%, 25%, 0.341);
+  background-color: hsla(300, 96%, 22%, 0.27);
 }
 
 .bug {
-  background-color: hsla(120, 68%, 36%, 0.365);
+  background-color: hsla(120, 70%, 43%, 0.27);
 }
 
 .electric {
-  background-color: hsla(60, 100%, 50%, 0.425);
+  background-color: hsla(60, 100%, 50%, 0.27);
 }
 
 .normal {
-  background-color: hsla(0, 0%, 50%, 0.37);
+  background-color: hsla(0, 0%, 50%, 0.27);
 }
 
 .fire {
-  background-color: hsla(0, 100%, 50%, 0.326);
+  background-color: hsla(0, 100%, 50%, 0.27);
 }
 
 .water {
-  background-color: hsla(240, 94%, 49%, 0.302);
+  background-color: hsla(213, 93%, 48%, 0.27);
 }
 
 

@@ -3,7 +3,7 @@ import Pokedex from './Pokedex'
 
 const mainTitle = 'https://th.bing.com/th/id/R.d3aa8ed7f6fbfae69aab6758989afafc?rik=AJaSqNz5gPJMHg&riu=http%3a%2f%2fpokegame.org%2fwp-content%2fuploads%2f2015%2f05%2fLOGO.png&ehk=uizc1FA3fxdfiXbSGP%2bHeeTUC5s%2bHMz0MQ%2bInCT5uIQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1'
 
-const POKE_API = "https://pokeapi.co/api/v2/pokemon";
+// const POKE_API = "https://pokeapi.co/api/v2/pokemon";
 
 
 class Pokegame extends Component {
