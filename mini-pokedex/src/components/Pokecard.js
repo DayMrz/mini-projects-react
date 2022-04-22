@@ -10,9 +10,11 @@ class Pokecard extends Component {
       <div className='Pokecard'>
         <h1 className='Pokecard-title'>{this.props.name}</h1>
         <div className='Pokecard-list'>
-          <li><img className='Pokecard-img' src={imgSrc} alt={this.props.name}/></li>
-          <li>Type: {this.props.type}</li>
-          <li>EXP: {this.props.exp}</li>
+          <div className='Pokecard-circle-img'>
+            <img className='Pokecard-img' src={imgSrc} alt={this.props.name}/>
+          </div>
+          <div>Type: {this.props.type}</div>
+          <div>EXP: {this.props.exp}</div>
         </div>
       </div>  
     )

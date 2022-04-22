@@ -32,14 +32,16 @@
   margin: 0;
 }
 
-.Winner {
-  color: rgb(60, 182, 60);
+.Pokedex-result {
   font-weight: 700;
   font-size: 2em;
+  margin: 0;
 }
 
-.Looser {
-  color: rgb(234, 9, 9);
-  font-weight: 700;
-  font-size: 2em;
+.Winner {
+  color: hsl(120, 50%, 47%);
+}
+
+.Loser {
+  color: hsl(0, 93%, 48%);
 }

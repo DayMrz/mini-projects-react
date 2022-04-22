@@ -14,15 +14,42 @@
   color: rgb(7, 95, 114);
 }
 
-.Pokecard-list {
-  padding: 0;
-}
-
-.Pokecard-list li {
-  list-style: none;
+.Pokecard-circle-img {
+  background-color: rgba(1, 255, 255, 0.136);
+  border-radius: 50%;
 }
 
 .Pokecard-img {
   height: 200px;
 }
+
+.flying {
+  background-color: hsla(240, 63%, 65%, 0.425);
+}
+
+.poison {
+  background-color: hsla(300, 46%, 25%, 0.341);
+}
+
+.bug {
+  background-color: hsla(120, 68%, 36%, 0.365);
+}
+
+.electric {
+  background-color: hsla(60, 100%, 50%, 0.425);
+}
+
+.normal {
+  background-color: hsla(0, 0%, 50%, 0.37);
+}
+
+.fire {
+  background-color: hsla(0, 100%, 50%, 0.326);
+}
+
+.water {
+  background-color: hsla(240, 94%, 49%, 0.302);
+}
+
+
 
